@@ -14,7 +14,7 @@
 }
 
 .container {
-  width: 1700px;
+  width: 1170px;
   margin: 0 auto;
 }
 
@@ -53,7 +53,7 @@
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
   padding: 20px;
 }
 
@@ -109,10 +109,13 @@
   display: flex;
 }
 
+/*##########  TIMING ##########*/
+
 .about .timing {
   width: 33%;
   padding: 20px;
   background-image: url("/images/brush-big.jpg");
+  background-size: cover;
 }
 
 .about .timing .overlay {
@@ -130,9 +133,39 @@
   text-transform: uppercase;
   border-bottom: 1px solid var(--color-primary);
   width: fit-content;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
   font-size: 30px;
 }
+
+.about .timing .text {
+  margin: 30px 0;
+  margin: 10px 0;
+}
+
+.about .timing .text:after {
+  content: '•';
+  display: block;
+  font-size: 25px;
+  margin-top: 10px 0;
+}
+
+.about .timing .text:last-of-type:after{
+  content: '|';
+  font-size: 25px;
+}
+
+.about .timing .text h4 {
+  color: #808080;
+  font-weight: 400;
+  font-size: 14px
+}
+
+.about .timing span {
+  font-size: 14px;
+  display: block;
+}
+
+/*##########  EXPERIENCE ##########*/
 
 .about .experience {
   width: 66%;
