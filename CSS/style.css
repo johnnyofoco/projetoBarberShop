@@ -1,8 +1,68 @@
-/*############# GLOBAL #################*/
+/*########## CONSTANTES ##########*/
+:root{
+  --color-primary: #917758;
+}
 
+/*########## GLOBAL ##########*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins',
+  sans-serif;
+  color: white;
 }
 
+/*########## SECTION HOME ##########*/
+.home {
+  height: 100vh;
+  background-size: cover;
+  background-image: url("../images/bg-home.jpg");
+  background-repeat: no-repeat;
+}
+.home .header{
+  padding: 30px ;
+}
+
+.home .header .nav{
+  display: flex;
+  justify-content: center;
+}
+
+.home .header .nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.home .header .nav ul li{
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.home .header .nav ul li a{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.home .header .nav ul li a:hover{
+  border-bottom: 1px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.home .header .nav ul li .logo{
+  margin: 0 30px;
+}
+
+/*########## HOME - BANNER ##########*/
+.home .banner{
+  text-align: center;
+}
+
+.home .banner span{
+  display: block;
+}
