@@ -101,7 +101,6 @@
 /*########## SECTION ABOUT ##########*/
 
 .about {
-  height: 100vh;
   background-color: var(--color-primary);
 }
 
@@ -116,6 +115,8 @@
   padding: 20px;
   background-image: url("/images/brush-big.jpg");
   background-size: cover;
+  position: relative;
+  top: -50px;
 }
 
 .about .timing .overlay {
@@ -149,7 +150,7 @@
   margin-top: 10px 0;
 }
 
-.about .timing .text:last-of-type:after{
+.about .timing .text:last-of-type:after {
   content: '|';
   font-size: 25px;
 }
@@ -169,4 +170,31 @@
 
 .about .experience {
   width: 66%;
+  margin-left: 7%;
+  margin: 100px;
+}
+
+.about .experience h2 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.about .experience h2:after {
+  display: block;
+  content: '';
+  width: 100px;
+  height: 3px;
+  background-color: #a38f78;
+  margin: 20px 0;
+}
+
+.about .experience .text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .experience .text p {
+  margin-bottom: 20px;
+  font-weight: 100;
+  font-size: 17px;
 }
