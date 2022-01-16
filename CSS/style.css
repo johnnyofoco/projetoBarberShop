@@ -13,6 +13,11 @@
   color: white;
 }
 
+.container {
+  width: 1700px;
+  margin: 0 auto;
+}
+
 /*########## SECTION HOME ##########*/
 .home {
   height: 100vh;
@@ -84,11 +89,51 @@
   font-size: 14px;
 }
 
-.home .banner h1{
+.home .banner h1 {
   font-size: 120px;
   letter-spacing: 8px;
 }
 
-.home .banner .slogan2{
+.home .banner .slogan2 {
   margin-bottom: 15px;
+}
+
+/*########## SECTION ABOUT ##########*/
+
+.about {
+  height: 100vh;
+  background-color: var(--color-primary);
+}
+
+.about .container {
+  display: flex;
+}
+
+.about .timing {
+  width: 33%;
+  padding: 20px;
+  background-image: url("/images/brush-big.jpg");
+}
+
+.about .timing .overlay {
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.about .timing .icon-cut {
+  width: 50px;
+}
+
+.about .timing h3 {
+  color: var(--color-primary);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--color-primary);
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.about .experience {
+  width: 66%;
 }
