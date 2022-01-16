@@ -8,10 +8,10 @@
 
 <h2 style="color=#4666ff;">Tecnlogias e conceitos utilizados:</h2>
 <ul>
-  <li>HTML5<li>
-  <li>CSS3<li>
-  <li>Responsividade com mediaQuerie<li>
-  <li>Flexbox<li>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>Responsividade com mediaQuerie</li>
+  <li>Flexbox</li>
 </ul>
 
 <h2 style="color=#4666ff;"
