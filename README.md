@@ -2,7 +2,7 @@
 
 <h2 >`- Descrição:`</h2>
 <p>
-  Site códificado baseado em uma barbearia fictícia, utilizando o conceito: <span><strong>`@@ OnePage @@`</strong>(página única)</span>.
+  Site códificado baseado em uma barbearia fictícia, utilizando o conceito: <span><strong>`@@OnePage`</strong>(página única)</span>.
 </p>
 
 <h2 style="color=#4666ff;">Tecnlogias e conceitos utilizados:</h2>
