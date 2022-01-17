@@ -3,6 +3,7 @@
   --color-primary: #917758;
   --color-secondary: #3c2915;
   --color-primary-light: #f5eee6;
+  --color-secondary-light: #665038;
 }
 
 /*########## GLOBAL ##########*/
@@ -209,23 +210,24 @@
   background-color: var(--color-primary-light);
 }
 
-.services h2{
+.services h2 {
   color: var(--color-secondary);
   font-weight: 400;
   font-size: 50px;
+  margin-bottom: 10px;
 }
 
-.services p{
+.services p {
   color: var(--color-secondary);
 }
 
-.services .boxes{
+.services .boxes {
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
 }
 
-.services .box{
+.services .box {
   border: 3px solid var(--color-primary);
   padding: 50px 30px;
   margin: 30px;
@@ -242,4 +244,88 @@
   font-size: 14px;
   line-height: 25px;
   text-align: center;
+}
+
+/*##########  APPOINTMENT ##########*/
+
+.appointment {
+  padding: 100px 0;
+  background-color: var(--color-primary);
+  height: 100vh;
+  background-image: url(../images/chair-ic.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 300px;
+}
+
+.appointment h2 {
+  color: var(--color-primary-light);
+  text-align: center;
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.appointment img {
+  margin: 0 auto;
+  display: block;
+}
+
+.appointment .form {
+  margin-top: 80px;
+}
+
+.appointment .personal-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.appointment .input-wrapper {
+  width: 100%;
+  margin-right: 50px;
+}
+
+.appointment .input-wrapper:last-of-type {
+  margin-right: 0;
+}
+
+.appointment label {
+  display: block;
+  color: var(--color-primary-light);
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.appointment .personal-data input,
+.appointment .personal-data select,
+.appointment textarea {
+  padding: 10px;
+  outline: none;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.appointment .personal-data select{
+  background-color: #808080;
+  color: var(--color-secondary);
+}
+
+.appointment textarea {
+  height: 150px;
+
+}
+
+.appointment button{
+  background-color: var(--color-secondary);
+  padding: 15px 60px;
+  border: none;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.appointment button:hover{
+  background-color: var(--color-secondary-light);
 }
