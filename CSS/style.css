@@ -117,7 +117,7 @@
 .about .timing {
   width: 33%;
   padding: 20px;
-  background-image: url("/IMAGES/brush-big.jpg");
+  background-image: url("../IMAGES/brush-big.jpg");
   background-size: cover;
   position: relative;
   top: -50px;
