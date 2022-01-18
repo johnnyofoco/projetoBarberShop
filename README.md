@@ -2,7 +2,7 @@
 
 <h2 >Descrição:</h2>
 <p>
-  Site códificado baseado em uma barbearia fictícia, utilizando o conceito: <strong>OnePage</strong>(página única).
+  Site codificado baseado em uma barbearia fictícia, utilizando o conceito: <strong>OnePage</strong>(página única).
   <span>OBS: EM CONSTRUÇÃO...</span>
 </p>
 
