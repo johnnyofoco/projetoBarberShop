@@ -14,7 +14,7 @@
   <li>Flexbox</li>
 </ul>
 
-<h2>Site códificado:</h2>
+<h2>Projeto codificado:</h2>
 <span>https://johnnyofoco.github.io/projetoBarberShop/<span>
 
 <h2>Layout sugerido do site:</h2>
