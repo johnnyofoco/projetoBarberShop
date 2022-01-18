@@ -25,7 +25,7 @@
 .home {
   height: 100vh;
   background-size: cover;
-  background-image: url("../images/bg-home.jpg");
+  background-image: url("../IMAGES/bg-home.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
@@ -117,7 +117,7 @@
 .about .timing {
   width: 33%;
   padding: 20px;
-  background-image: url("/images/brush-big.jpg");
+  background-image: url("/IMAGES/brush-big.jpg");
   background-size: cover;
   position: relative;
   top: -50px;
@@ -253,7 +253,7 @@
   padding: 100px 0;
   background-color: var(--color-primary);
   height: 100vh;
-  background-image: url(../images/chair-ic.png);
+  background-image: url("../IMAGES/chair-ic.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 300px;
@@ -376,7 +376,7 @@
 
 .location{
   padding: 100px 0;
-  background: url(../images/bg-location.jpg);
+  background: url("../IMAGES/bg-location.jpg");
   background-size: cover;
 }
 
