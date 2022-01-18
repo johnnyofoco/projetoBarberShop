@@ -27,6 +27,7 @@
   background-size: cover;
   background-image: url("../images/bg-home.jpg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
   position: relative;
 }
 
@@ -374,7 +375,6 @@
 /*##########  LOCATION ##########*/
 
 .location{
-  height: 100vh;
   padding: 100px 0;
   background: url(../images/bg-location.jpg);
   background-size: cover;
@@ -416,4 +416,20 @@
 
 .location .head .text span:last-child {
   color: white;
+}
+
+.location .map{
+  width: 100%;
+}
+
+.location .map iframe{
+  width: 100%;
+}
+
+/*##########  FOOTER ##########*/
+
+footer{
+  background-color: #191919;
+  padding: 40px;
+  text-align: center;
 }
