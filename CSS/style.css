@@ -451,9 +451,11 @@ footer {
   .container {
     width: 375px;
   }
-  .home{
+
+  .home {
     height: 85vh;
   }
+
   .home .header {
     padding: 0;
   }
@@ -499,12 +501,14 @@ footer {
   .about .experience {
     margin: 2px;
   }
-  .services{
+
+  .services {
     padding: 50px 0;
   }
+
   .appointment {
     padding: 40px 0;
-    
+
   }
 
   .appointment form {
@@ -537,7 +541,8 @@ footer {
   .appointment .input-wrapper {
     margin-right: 0;
   }
-.location .container{
-  text-align: center;
-}
+
+  .location .container {
+    text-align: center;
+  }
 }
